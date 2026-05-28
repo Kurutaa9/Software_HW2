@@ -88,4 +88,5 @@ export default class Enemy extends cc.Component {
             cc.removeSelf()
         ));
     }
+    
 }

@@ -201,6 +201,7 @@ export default class Player extends cc.Component {
         this.isDead = true;
         this.lives -= 1;
         
+        
         if (this.dieSound) cc.audioEngine.playEffect(this.dieSound, false);
         
         if (this.anim) this.anim.play('die');

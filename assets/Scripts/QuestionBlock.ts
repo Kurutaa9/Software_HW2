@@ -33,4 +33,5 @@ export default class QuestionBlock extends cc.Component {
             this.node.parent.addChild(mushroom);
         }
     }
+    
 }
